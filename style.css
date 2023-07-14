@@ -1,0 +1,44 @@
+body {
+    background: repeating-linear-gradient(to right, 
+    #D2B48C 0px,
+    #D2B48C 40px,
+    #E5D3B3 40px,
+    #E5D3B3 80px);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#image {
+    display: flex;
+    flex-direction: column;
+}
+
+.img_holder {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 1em;
+}
+
+.img_holder img {
+    border-top: 6px solid #664229;
+    border-left: 6px solid #664229;
+    border-bottom: 6px solid #987554;
+    border-right: 6px solid #987554;
+}
+
+.text {
+    border: 2px solid #664229;
+    background-color: #D2B48C;
+    margin: 1em;
+    padding: 0.5em;
+}
+
+#artist_name {
+    font-size: x-large;
+}
+
+#creator_name {
+    font-size: x-small;
+}
