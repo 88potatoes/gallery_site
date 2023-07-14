@@ -35,10 +35,11 @@ body {
     padding: 0.5em;
 }
 
-#artist_name {
-    font-size: x-large;
+#refresh {
+    margin-top: 0.1em;
 }
 
-#creator_name {
-    font-size: x-small;
+#artist_name {
+    font-size: x-large;
+    margin-bottom: 0.1em;
 }
